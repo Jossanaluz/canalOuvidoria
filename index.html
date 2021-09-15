@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Um grupo de executivos especializados em gestão/negócios que trabalham e estruturam carreiras de artistas da música"
+    />
+    <meta
+      name="keywords"
+      content="musica, carreira, gestao, artista, cantora, cantor"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/img/site/favicon.ico"
+    />
+
+    <title>Canal de Ouvidoria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/375c4d5f6b.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <header id="header" class="bg-color">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <section class="box-logo shadow">
+              <img src="./img/logo-sips.png" alt="" />
+            </section>
+          </div>
+          <div class="col-lg-6 col-12">
+            <h1 class="fs-700">Canal de Ouvidoria</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="company">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-lg-7 col-12">
+            <section class="text-company">
+              <p>
+                A Ouvidoria do
+                <strong> GRIMON SANEAMENTO E CONSTRUÇÕES LTDA</strong> é um
+                instrumento de integridade corporativa que faz parte do Programa
+                de Compliance da empresa.
+              </p>
+              <br />
+              <p>
+                Sua finalidade é estabelecer um canal de comunicação entre a
+                empresa e a sociedade, de modo a viabilizar o aperfeiçoamento
+                institucional e colaborar para um ambiente seguro, positivo e
+                ético de negócios na organização e no país.
+              </p>
+            </section>
+          </div>
+          <div class="col-lg-5 col-12">
+            <div class="content-box-pdf">
+              <a href="" class="box-pdf shadow">
+                <i class="fas fa-file-pdf"></i
+                ><strong class="text-color">Código De Ética</strong>
+              </a>
+              <a href="" class="box-pdf shadow mt-5">
+                <i class="fas fa-file-pdf"></i
+                ><strong class="text-color">Política De Integridade</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+        <section class="content-form">
+          <div class="content-form_title">
+            <h2>Serviços ao cidadão</h2>
+            <div class="separador bg-color"></div>
+            <p>Escolha o tipo de comunicação que pretende realizar</p>
+          </div>
+        </section>
+        <section class="sec-form">
+          <div class="accordion" id="sec-form">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <h3>Uma Denúncia</h3>
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <form action="" method="POST" id="for-denuncia">
+                    <section class="campo">
+                      <p>Escolha o tipo de comunicação que pretende</p>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="denuncia_tipo{}"
+                          id="denuncia_tipo_01"
+                        />
+                        <label class="form-check-label" for="denuncia_tipo_01">
+                          Anônima – você não será identificado e não poderá
+                          acompanhar a apuração da denúncia
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="denuncia_tipo{}"
+                          id="denuncia_tipo_02"
+                          checked
+                        />
+                        <label class="form-check-label" for="denuncia_tipo_02">
+                          Sigilosa – você será identificado apenas pelo Comitê
+                          de Integridade e Ética e receberá informações sobre a
+                          apuração da sua denúncia
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="denuncia_tipo{}"
+                          id="denuncia_tipo_03"
+                        />
+                        <label class="form-check-label" for="denuncia_tipo_03">
+                          Pública – você será identificado e o denunciado poderá
+                          ter acesso ao seu nome. Você receberá informações
+                          acerca da denúncia
+                        </label>
+                      </div>
+                    </section>
+                    <section class="campo">
+                      <p>Denúncia contra:</p>
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="denuncia_atos_01"
+                          name="denuncia_atos{}"
+                          value="atos praticados por membros da direção"
+                        />
+                        <label class="form-check-label" for="inlineCheckbox1"
+                          >atos praticados por membros da direção</label
+                        >
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="denuncia_atos_02"
+                          name="denuncia_atos{}"
+                          value="atos praticados por empregados"
+                        />
+                        <label class="form-check-label" for="denuncia_atos_02"
+                          >atos praticados por empregados</label
+                        >
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="denuncia_atos_03"
+                          name="denuncia_atos{}"
+                          value="atos praticados por terceirizados"
+                        />
+                        <label class="form-check-label" for="denuncia_atos_03"
+                          >atos praticados por terceirizados</label
+                        >
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="denuncia_atos_04"
+                          name="denuncia_atos{}"
+                          value="atos praticados por prepostos"
+                        />
+                        <label class="form-check-label" for="denuncia_atos_04"
+                          >atos praticados por prepostos</label
+                        >
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="denuncia_atos_05"
+                          name="denuncia_atos{}"
+                          value="atos praticados por mais de uma categoria anterior"
+                        />
+                        <label class="form-check-label" for="denuncia_atos_05"
+                          >atos praticados por mais de uma categoria
+                          anterior</label
+                        >
+                      </div>
+                    </section>
+                    <section class="campo">
+                      <label for="manisfestacao" class="form-label"
+                        >Manifestação</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="manisfestacao"
+                        rows="6"
+                      ></textarea>
+                    </section>
+                    <section class="campo">
+                      <label for="formFile" class="form-label"
+                        >Anexe ao formulário um documento no formato PDF ou DOC.
+                        Se precisar enviar mais, utilize a compressão ZIP ou RAR
+                        para gerar um único arquivo, contendo todos os
+                        documentos necessários.
+                        <br />
+                        Limite máximo de 8MB.</label
+                      >
+                      <input
+                        class="form-control campo-file"
+                        type="file"
+                        id="formFile"
+                      />
+                    </section>
+                    <button type="button" class="bg-color btn-enviar rounded">
+                      Enviar
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <h3>Elogio, Reclamação ou Sugestão</h3>
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <form action="" method="POST" id="for-ers">
+                    <section class="campo">
+                      <p>Escolha o tipo de comunicação que pretende</p>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="ers_tipo{}"
+                          id="ers_tipo_01"
+                        />
+                        <label class="form-check-label" for="ers_tipo_01">
+                          Anônima – você não será identificado e não poderá
+                          acompanhar a apuração da denúncia
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="ers_tipo{}"
+                          id="ers_tipo_02"
+                          checked
+                        />
+                        <label class="form-check-label" for="ers_tipo_02">
+                          Sigilosa – você será identificado apenas pelo Comitê
+                          de Integridade e Ética e receberá informações sobre a
+                          apuração da sua denúncia
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="ers_tipo{}"
+                          id="ers_tipo_03"
+                        />
+                        <label class="form-check-label" for="ers_tipo_03">
+                          Pública – você será identificado e o denunciado poderá
+                          ter acesso ao seu nome. Você receberá informações
+                          acerca da denúncia
+                        </label>
+                      </div>
+                    </section>
+                    <section class="campo">
+                      <label for="manisfestacao" class="form-label"
+                        >Manifestação</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="manifestacao"
+                        rows="6"
+                      ></textarea>
+                    </section>
+                    <section class="campo">
+                      <label for="formFile" class="form-label"
+                        >Anexe ao formulário um documento no formato PDF ou DOC.
+                        Se precisar enviar mais, utilize a compressão ZIP ou RAR
+                        para gerar um único arquivo, contendo todos os
+                        documentos necessários.
+                        <br />
+                        Limite máximo de 8MB.</label
+                      >
+                      <input
+                        class="form-control campo-file"
+                        type="file"
+                        id="formFile"
+                      />
+                    </section>
+                    <button type="button" class="bg-color btn-enviar rounded">
+                      Enviar
+                    </button>
+                  </form>
+                  .
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer id="footer" class="bg-color">
+      <div class="text-center">© 2021 | Code Agência Web</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/validator.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
